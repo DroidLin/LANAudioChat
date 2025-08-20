@@ -1,6 +1,6 @@
 package my.lan.audio.service
 
-class DesktopVoiceRecorder(val voiceDataSource: VoiceDataSource) : VoiceRecorder {
+class DesktopVoiceCapturer(val voiceDataSource: VoiceDataSource) : VoiceCapturer {
 
     override fun startRecord() {
         TODO("Not yet implemented")
